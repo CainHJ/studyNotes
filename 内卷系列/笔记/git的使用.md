@@ -75,19 +75,30 @@
 * Git 基本理论
 
   * 工作目录(`Working Directory`)
-  * 暂存区(`Stage/Index`)
+* 暂存区(`Stage/Index`)
+  
   * 资源库(`Repository`或`Git Directory`)
-  * 远程`git`仓库(`Remote Directory`)
+* 远程`git`仓库(`Remote Directory`)
   * 提交
+
     * `git add files` 加入文件 从`Working Directory` 上传到 `Stage/Index`
     * `git commit` 从`Stage/Index` 上传到 `History`
     * `git push` 从`History`上传到`Remote Directory`
-  * 下载
+ * 下载
+  
     * `git pull`  从`Remote Director`下载到`History`
+    
     * `git reset` 从`History`更新到`Stage/Index` 
+    
     * `git checkout`  从`Stage/Index` 更新到`Working Directory` 
+    
+    * 这是分支![Image text](..\img\1640420987.jpg)
+    
+* Git 项目搭建(两种方法)
 
-* Git 项目搭建
+    * `git init` 创建一个新的代码库(注:这种方法我不知道怎么上传到`github`)
+
+    * `git clone [url] git@github.com:CainHJ/studyNotes.git`  在`github`找到clone地址直接克隆![Image text](..\img\1640422045.jpg)
 
 * Git 文件操作
 
