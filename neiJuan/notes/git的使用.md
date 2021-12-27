@@ -20,7 +20,7 @@
 
   * 启动
 
-    ![Image text](..\img\1640225777.jpg)
+    ![Image text](\img\1640225777.jpg)
 
     * `Git Bash:`  Unix与Linux的风格的命令行,使用最多,推荐最多
     * `Gut CMD:` Windows风格的命令行
